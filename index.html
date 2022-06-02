@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="sass/style.css" />
+
+    <title>Form Validation</title>
+  </head>
+  <body>
+    <header>
+      <!-- Image section -->
+      <section class="img_sec">
+        <img src="section.png" alt="welcome image" id="backImg" />
+      </section>
+      <!-- Image section -->
+
+      <!-- Form section -->
+      <section class="form_sec">
+        <!-- Nav bar -->
+        <nav>
+          <ul>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact us</li>
+          </ul>
+        </nav>
+        <!-- Nav bar -->
+
+        <!-- Form -->
+        <form id="form">
+          <!-- Title -->
+          <h1>Contact us</h1>
+          <!-- Title -->
+
+          <!--Inputs -->
+          <div class="twoinput">
+            <span>
+              <label for="name">FIRST NAME </label>
+              <input
+                type="text"
+                name="name"
+                id="firstName"
+                placeholder="Enter your first name"
+              />
+              <a
+                id="firstNamesvg"
+                title=" Your name must be 2-10 characters long and should not start with a number"
+              >
+                <lord-icon
+                  class="errormsg"
+                  src="https://cdn.lordicon.com/otyynlki.json"
+                  trigger="loop"
+                  style="width: 2rem; height: 2rem"
+                >
+                </lord-icon>
+              </a>
+            </span>
+            <span>
+              <label for="name">LAST NAME </label>
+              <input
+                type="text"
+                name="name"
+                id="lastName"
+                placeholder="Enter your last name"
+              />
+              <a
+                id="lastNamesvg"
+                title=" Your name must be 2-10 characters long and should not start with a number"
+              >
+                <lord-icon
+                  class="errormsg"
+                  src="https://cdn.lordicon.com/otyynlki.json"
+                  trigger="loop"
+                  style="width: 2rem; height: 2rem"
+                >
+                </lord-icon>
+              </a>
+            </span>
+          </div>
+
+          <div class="twoinput">
+            <span>
+              <label for="name">MOBILE</label>
+              <input
+                type="text"
+                name="name"
+                id="number"
+                placeholder="Enter your mobile number"
+              />
+              <a
+                id="numbersvg"
+                title=" Your phone number must be 10 digit long"
+              >
+                <lord-icon
+                  class="errormsg"
+                  src="https://cdn.lordicon.com/otyynlki.json"
+                  trigger="loop"
+                  style="width: 2rem; height: 2rem"
+                >
+                </lord-icon>
+              </a>
+            </span>
+            <span>
+              <label for="name">EMAIL </label>
+              <input
+                type="text"
+                name="email"
+                id="email"
+                placeholder="Enter your email"
+              />
+              <a id="emailsvg" title="Your email must be a valid email">
+                <lord-icon
+                  class="errormsg"
+                  src="https://cdn.lordicon.com/otyynlki.json"
+                  trigger="loop"
+                  style="width: 2rem; height: 2rem"
+                >
+                </lord-icon>
+              </a>
+            </span>
+          </div>
+
+          <div class="twoinput">
+            <span class="oneinput">
+              <label for="name">MESSAGE </label>
+              <input
+                type="text"
+                name="name"
+                id="message"
+                placeholder="Enter your message"
+              />
+              <a id="messagesvg" title="Enter more than 2 characters">
+                <lord-icon
+                  class="errormsg"
+                  src="https://cdn.lordicon.com/otyynlki.json"
+                  trigger="loop"
+                  style="width: 2rem; height: 2rem"
+                >
+                </lord-icon>
+              </a>
+            </span>
+          </div>
+          <!--Inputs -->
+
+          <!-- Button -->
+          <button id="submitBtn" style="cursor: pointer">
+            Submit
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="2rem"
+              height="2rem"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-arrow-right"
+            >
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </button>
+          <!-- Button -->
+        </form>
+        <!-- Form -->
+
+        <!-- Footer -->
+        <footer>
+          <p>enquiry@none.com</p>
+          <p>Instagram</p>
+          <p>Facebook</p>
+        </footer>
+        <!-- Footer -->
+      </section>
+      <!-- Form section -->
+    </header>
+    <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+
+    <script src="js.js"></script>
+  </body>
+</html>
