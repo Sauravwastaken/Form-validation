@@ -291,6 +291,7 @@ header .form_sec footer p {
   }
   header .form_sec form div span input {
     padding: 2% 0 2% 0;
+    margin: 2% 0;
   }
 }
 /*# sourceMappingURL=style.css.map */
